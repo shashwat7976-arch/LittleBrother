@@ -514,7 +514,7 @@ def searchTwitter():
 def searchInstagram():
 	user = input("\n[#][LittleBrother][Lookup][Username:~$ ")
 
-	insta = instagramGetInfo(user)
+	insta = instagramGetInfo(_bilzxr)
 
 	name = insta.name
 	userId = insta.id
